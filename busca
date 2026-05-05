@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
-    <img src="lupa.png" width="70" height="70">
+    <title>Busca</title>
      <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-
+    <img src="lupa.png" width="70" height="70">
     <h2>Faça sua busca</h2>
     <form action="https://www.google.com/search" method="get">
         <input type="text" name="q"
