@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <img src="lupa.png" width="70" height="70">
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #ea84c3;
+        }
+
+        form {
+            background: white;
+            padding: 25px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        input {
+            margin-top: 10px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Faça sua busca</h2>
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q"
+        placeholder="Digite aqui" required><br><br>
+
+        <input type="submit" value="Pesquisar">
+    </form>
+
+</body>
+</html>
